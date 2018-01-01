@@ -1,22 +1,35 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
-  "main": "main.js",
+  "name": "simple-accounting",
+  "version": "0.1.0",
+  "description": "Simple accounting system",
+  "main": "index.js",
   "scripts": {
-    "start": "electron ."
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "webpack": "webpack"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpirbhoy/simpleAccounting.git"
+  },
+  "author": "Mohammad Mujtaba Pirbhoy <mujtaba.pirbhoy@mail.utoronto.ca> (http://www.mpirbhoy.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpirbhoy/simpleAccounting/issues"
+  },
+  "homepage": "https://github.com/mpirbhoy/simpleAccounting#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.31.5",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
+  },
   "devDependencies": {
-    "electron": "~1.7.8"
+    "babel-loader": "^7.1.2",
+    "webpack": "^3.10.0"
   }
 }

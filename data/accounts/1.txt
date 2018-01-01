@@ -1,4 +1,0 @@
-Account No.;,Particular;,Date;,Amount (Rs);,Balance After entry
-1;, Purchase goods;,1/10/2016;,125;,125
-1;, Purchase goods;,1/11/2016;,120;, 245
-1;, Late payment fee;, 1/1/2017;, 5;, 250
